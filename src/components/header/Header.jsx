@@ -2,9 +2,9 @@ import {BrowserRouter, Routes, Route, Link} from "react-router-dom"
 import s from "../../components/header/header.module.scss"
 import livrovnw from "../../assets/livrovnw.png"
 import lupa from "../../assets/lupa.png"
-import Inicio from "../../Pages/inicio/Inicio"
+import Inicio from "../../Pages/Inicio/Inicio"
 import LivrosDoados from "../../Pages/livrosDoados/LivrosDoados"
-import QueroDoar from "../../Pages/QueroDoar/QueroDoar"
+import QueroDoar from "../../Pages/Querodoar/QueroDoar"
 
 
 export default function Header(){
