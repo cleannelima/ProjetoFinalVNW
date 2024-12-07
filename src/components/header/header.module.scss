@@ -21,22 +21,22 @@
 
     h1 {
         font-size: 20px;
-        color: #fff;
+        color: white;
     }
 }
 
 .navheader {
-    width: 30%;
+    width: 85%;
 
     ul {
-        display: flex;
-        justify-content: space-around;
+        justify-content: space-evenly;
         list-style: none;
+        display: flex;
     }
 
-    .link {
+    .Link {
         color: white;
-        font-size: 50px;
+        font-size: 20px;
         text-decoration: none;
     }
 }
