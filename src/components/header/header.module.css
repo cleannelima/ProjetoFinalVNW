@@ -1,0 +1,68 @@
+.header {
+  background: linear-gradient(90deg, #001b2f 0%, #005695 100%);
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  height: 20vh;
+  width: 100vw;
+}
+
+.logoheader {
+  display: flex;
+  width: 20%;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.logoheader img {
+  width: 20%;
+}
+.logoheader h1 {
+  font-size: 20px;
+  color: white;
+}
+
+.navheader {
+  width: 85%;
+}
+.navheader ul {
+  justify-content: space-evenly;
+  list-style: none;
+  display: flex;
+}
+.navheader .Link {
+  color: white;
+  font-size: 20px;
+  text-decoration: none;
+}
+
+.barraDeBusca {
+  border: solid #fff;
+  border-radius: 20px;
+  margin-right: 1%;
+  width: 25%;
+  height: 6vh;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.barraDeBusca input {
+  background-color: transparent;
+  border: none;
+  width: 60%;
+  height: 5vh;
+}
+.barraDeBusca input::-moz-placeholder {
+  color: #fff;
+  font-size: 13px;
+  display: flex;
+}
+.barraDeBusca input::placeholder {
+  color: #fff;
+  font-size: 13px;
+  display: flex;
+}
+.barraDeBusca button {
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+}/*# sourceMappingURL=header.module.css.map */

@@ -1,0 +1,38 @@
+.card {
+  width: 200px;
+  border: 2px solid #005695;
+  border-radius: 10px;
+  padding: 10px;
+  text-align: center;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 20px auto;
+}
+
+.cardImage {
+  width: 100px;
+  height: auto;
+}
+
+.cardContent {
+  margin-top: 10px;
+}
+
+.tituloDoLivro,
+.autor,
+.genero {
+  font-size: 14px;
+  color: #000;
+  margin: 2px 0;
+  font-weight: inter;
+}
+
+.title {
+  text-align: center;
+  margin-top: 20px;
+  font-size: 24px;
+  color: #000;
+}/*# sourceMappingURL=livrosdoados.module.css.map */
